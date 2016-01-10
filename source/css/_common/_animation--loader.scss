@@ -1,0 +1,67 @@
+//LOADING SCREEN
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  background: $grey--mediumdark;
+
+  img {
+    position: absolute;
+    @include absolute--center(0, 0, 0, 0);
+    width: 25%;
+  }
+}
+
+.loader--animation{
+  width: 80px;
+  height: 20px;
+  //background: lightblue;
+  position: absolute;
+  @include absolute--center(200px, 0, 0, 0);
+
+  span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: $blue;
+    float: left;
+    opacity: 0;
+
+    &:first-of-type {
+      -webkit-animation: loading 1s linear .1s infinite;
+      animation: loading 1s linear .1s infinite;
+    }
+    &:nth-of-type(2){
+      -webkit-animation: loading 1s linear .2s infinite;
+      animation: loading 1s linear .2s infinite;
+    }
+    &:nth-of-type(3){
+      -webkit-animation: loading 1s linear .3s infinite;
+      animation: loading 1s linear .3s infinite;
+    }
+    &:nth-of-type(4){
+      -webkit-animation: loading 1s linear .4s infinite;
+      animation: loading 1s linear .4s infinite;
+    }
+  }
+}
+
+@-webkit-keyframes loading {
+  0%    { opacity: 0 }
+  25%   { opacity: 1 }
+  50%   { opacity: 0 }
+  100%  { opacity: 0 }
+}
+
+@keyframes loading {
+  0%    { opacity: 0 }
+  25%   { opacity: 1 }
+  50%   { opacity: 0 }
+  100%  { opacity: 0 }
+}
+

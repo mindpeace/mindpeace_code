@@ -1,0 +1,51 @@
+$blue:                    #2285a9;
+$blue--mediumlight:       #749ba9;
+
+$grey:                    #101313;
+$grey--light:             #ececec;
+$grey--medium:            #818181;
+$grey--mediumdark:        #252a2a;
+
+$green:                   #517c05;
+
+//----------------------------------------------------
+
+body {
+  font-family: 'Exo', sans-serif;
+  color: $grey--light;
+}
+
+//----------------------------------------------------
+
+//clearfix
+.btcf:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.background--2 {
+  background: url("../img/sample_bg_2.jpg") no-repeat;
+  background-size: cover;
+}
+
+.background--3 {
+  background: url("../img/sample_bg_3.jpg") no-repeat;
+  background-size: cover;
+}
+
+.margin--top {
+  margin-top: 800px;
+}
+
+.opacity--0 {
+  opacity: 0;
+}
+
+@mixin absolute--center($top, $right, $bottom, $left){
+  top: $top;
+  bottom: $bottom;
+  left: $left;
+  right: $right;
+  margin: auto;
+}

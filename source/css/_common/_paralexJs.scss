@@ -1,0 +1,51 @@
+.scene,
+.scene--left {
+  //background: lightcoral;
+  margin-bottom: 60px;
+  margin-top: 800px;
+  opacity: 0;
+  transition: 1s;
+
+  .layer {
+    background: rgba($grey, .1);
+    padding: 25px;
+  }
+
+  span {
+
+    h2 {
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.75em;
+    }
+
+    p {
+      color: $blue--mediumlight;
+      margin: 5px 0 0;
+    }
+  }
+}
+
+  span.margin--top30 {
+    margin-top: 24%;
+
+    h2 {
+      font-size: 3em;
+    }
+  }
+
+.scene--left {
+
+  h2, p {
+    text-align: right;
+  }
+}
+
+.scene {
+
+  h2, p {
+    text-align: left;
+  }
+}

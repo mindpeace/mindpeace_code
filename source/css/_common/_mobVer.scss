@@ -1,0 +1,92 @@
+@media screen and (max-width: 1200px){
+  #fullpage,
+  .mobile,
+  .overlay,
+  .loader,
+  video {
+    display: none !important;
+  }
+
+  html {
+    overflow: auto !important;
+  }
+
+  header {
+
+    a {
+      display: none;
+    }
+
+    .facebook--wrapper {
+      float: none;
+      margin: 0;
+      text-align: left;
+      padding: 40px 0 0 30px;
+    }
+  }
+
+  #store {
+    top: 30px;
+    right: 30px !important;
+    left: auto !important;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 36px;
+  }
+
+  #mobVer {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../img/sample_bg_2.jpg");
+    background-size: cover;
+    position: relative;
+
+    div {
+      position: absolute;
+      display: block;
+      //background: red;
+      height: 40vh;
+      text-align: center;
+      @include absolute--center(0, 0, 0, 0);
+    }
+
+    img {
+      width: 60%;
+    }
+
+    h1 {
+      font-size: 6vmin;
+      //background: green;
+      text-align: center;
+      //text-transform: lowercase;
+      color: rgba(white, .75);
+      margin-bottom: 50px;
+
+      span {
+        display: inline-block;
+        color: rgba(white, .25);
+      }
+    }
+
+    h2 {
+      width: 90%;
+      font-size: 4vmin;
+      //background: orange;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      color: rgba(white, .75);
+      font-weight: normal;
+      font-style: italic;
+    }
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  #mobVer {
+    display: none;
+  }
+}

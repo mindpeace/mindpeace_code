@@ -1,0 +1,138 @@
+- url:                    "#"
+  folder:                 ""
+  text:                   JIRA Demo Dashboards
+  img:                    partials/svg/folder
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  folder:                 ""
+  text:                   Zephyr Charts 2015
+  img:                    partials/svg/folder
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   JIRA Demo Issue bar chart
+  img:                    /img/common/bar.svg
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   JIRA Demo Issue bar chart
+  img:                    partials/svg/bar
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Issues closed in last 30 days gantt
+  img:                    partials/svg/gantt
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Issues closed in last 30 days gantt
+  img:                    /img/common/gantt.svg
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   JIRA Demo - Issue Resolution Days gauge
+  img:                    partials/svg/gauge
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Sample - average age days - trend for last 30 days line chart
+  img:                    /img/common/line.svg
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Sample - average age days - trend for last 30 days line chart
+  img:                    partials/svg/line
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Demo Version map
+  img:                    partials/svg/map
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Example - Pie chart for issue with subtasks
+  img:                    partials/svg/pie
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Demo Scatter Chart Sprints
+  img:                    /img/common/scatter.svg
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Demo Scatter Chart Sprints
+  img:                    partials/svg/scatter
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Sample open issues by component and priority timeline
+  img:                    /img/common/timeline.svg
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   Sample open issues by component and priority timeline
+  img:                    partials/svg/timeline
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   JIRA Demo - Cumulative Issues table
+  img:                    /img/common/table.svg
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
+- url:                    "#"
+  text:                   JIRA Demo - Cumulative Issues table
+  img:                    partials/svg/table
+  created:                7 months ago
+  owner:                  Lauma Cīrule
+  updated:                7 months ago
+  updated_by:             Lauma Cīrule
+
