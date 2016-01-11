@@ -201,3 +201,37 @@ do ->
             return
         return
     return
+
+
+#Form validation =====================================================================================================
+do ->
+  $('[data-submit="submit"]').click ->
+    emailField = $('[data-mail="input"]').val()
+    emailFilter = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    if $.trim(emailField) == ''
+      swal 'Error!', 'Please fill out email field!', 'error'
+      false
+    else if !emailFilter.test(emailField)
+      swal 'Error!', 'Please enter a valid email address!', 'error'
+      false
+    else
+      swal 'Success!', 'Email sent!', 'success'
+      true
+
+
+#Form sending =====================================================================================================
+do ->
+  $('.form').on 'submit', ->
+    data = {}
+    $(this).find('[name]').each (index, value) ->
+      name = $(this).attr('name')
+      value = $(this).val()
+      data[name] = value
+      return
+    $.ajax
+      url: '//formspree.io/' + 'info' + '@' + 'mindpeace' + '.' + 'eu'
+      method: 'POST'
+      data: data
+      dataType: 'json'
+    $('.form').trigger 'reset'
+    false
