@@ -7,7 +7,7 @@ do ->
 #Redirect ===========================================================================
 do ->
   if $(window).width() <= 1200
-    window.location = "http://www.apple.com/itunes/"
+    window.location = "https://itunes.apple.com/us/app/mindpeace/id985176337?ls=1&mt=8"
 
 
 #Parralexjs custom ====================================================================
@@ -229,7 +229,7 @@ do ->
       data[name] = value
       return
     $.ajax
-      url: '//formspree.io/' + 'info' + '@' + 'mindpeace' + '.' + 'eu'
+      url: '//formspree.io/jaanis.celms@gmail.com'
       method: 'POST'
       data: data
       dataType: 'json'

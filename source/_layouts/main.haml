@@ -13,6 +13,7 @@
     = stylesheet_link_tag "app"
 
   %body{class: page_classes}
+    = partial "partials/analytics"
     = partial "partials/header"
     #content
       = yield
